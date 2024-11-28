@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); 
+    grid-template-rows: repeat(3, 100px);     
+    gap: 10px; 
+    justify-items: center;
+    align-items: center;
+}
+
+.cube {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 8px;         
+}
