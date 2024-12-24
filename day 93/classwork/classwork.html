@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fce495;
+        }
+
+        .chart {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            width: 150px;
+            height: 150px;
+            background-color: #fce495;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .bar {
+            width: 20px;
+            background-color: #5e4980;
+        }
+
+        .bar:nth-child(1) {
+            height: 30px;
+        }
+
+        .bar:nth-child(2) {
+            height: 60px;
+        }
+
+        .bar:nth-child(3) {
+            height: 120px;
+        }
+
+        .bar:nth-child(4) {
+            height: 90px;
+        }
+
+        .bar:nth-child(5) {
+            height: 50px;
+        }
+
+        .bar:nth-child(6) {
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chart">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+</body>
+</html>
