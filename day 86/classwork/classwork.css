@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'customfont';
+    src: url(Poppins-Bold.ttf) format('truetype');
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+}
+
+#block{
+    width: 1000px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+ 
+}
+
+#texts{
+    width:800px ;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+#boxes{
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+#day{
+    width:100px ;
+    height: 30px;
+    
+}
+
+#month{
+    width:100px ;
+    height: 30px;
+}
+
+#year{
+    width:100px ;
+    height: 30px;
+}
+
+label{
+    font-family: 'customfont', Poppins-Bold;
+}
+
+#button{
+    background-image: url(icon-arrow.svg);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-color: rgb(149, 74, 235);
+    display: flex;
+    justify-content: flex-end;
+}

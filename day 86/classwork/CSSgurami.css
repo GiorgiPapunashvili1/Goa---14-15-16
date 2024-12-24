@@ -1,0 +1,62 @@
+@font-face{
+    font-family: 'customFont';
+    src: url('/Day 86/age-calculator-app-main/assets/fonts/Poppins-Bold.ttf') format('truetype');
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    height: 500px;
+    width: 600px;
+    background-color: aliceblue;
+}
+
+#infoInput{
+    display: flex;
+    flex-direction: column;
+}
+
+#infoLabels{
+    display: flex;
+    gap: 120px;
+    font-family: 'customFont';
+}
+
+#infoInputs{
+    display: flex;
+    gap: 30px;
+    font-family: 'customFont', sans-serif;
+}
+
+#infoInputs:focus{
+    border: 2px solid purple;
+}
+
+input{
+    width: 100px;
+    height: 25px;
+}
+
+label{
+    font-size: small;
+}
+
+#Submit{
+    height: 60px;
+    width: 60px;
+    background-image: url('icon-arrow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(119, 0, 255);
+    border-radius: 50px;
+}
+
+#infoOutput{
+    display: flex;
+    flex-direction: column;
+}
