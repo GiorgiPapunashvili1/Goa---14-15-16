@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-container, .output-container {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .output-container div {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>People Management</h1>
+
+    <div class="form-container">
+        <h3>Add a Person</h3>
+        <form id="personForm">
+            <label>First Name: <input type="text" id="firstName" required></label><br><br>
+            <label>Last Name: <input type="text" id="lastName" required></label><br><br>
+            <label>Age: <input type="number" id="age" required></label><br><br>
+            <label>ID: <input type="text" id="id" required></label><br><br>
+            <label>Height (cm): <input type="number" id="height" required></label><br><br>
+            <label>Description: <textarea id="description" required></textarea></label><br><br>
+            <button type="submit">Add Person</button>
+        </form>
+    </div>
+
+    <div class="output-container">
+        <h3>People List</h3>
+        <div id="peopleList">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
